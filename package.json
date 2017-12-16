@@ -1,0 +1,21 @@
+{
+  "name": "data-sync-module",
+  "version": "0.0.1",
+  "description": "data-sync-module",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.16.6",
+    "node-crontab": "0.0.8",
+    "request": "^2.76.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "data-sync-module"
+  ]
+}

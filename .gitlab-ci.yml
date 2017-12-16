@@ -1,0 +1,16 @@
+stages:
+  - test
+  - deploy
+
+npm-test:
+  stage: test
+  script:
+  - npm install -d
+  - npm test
+
+npm-publish:
+  stage: deploy
+  script:
+  - npm publish
+  only:
+  - master
